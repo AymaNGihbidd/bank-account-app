@@ -8,7 +8,7 @@ import net.ayman.accountservice.model.Customer;
 import java.time.LocalDate;
 import java.util.Date;
 @Entity
-@Getter@Setter@NoArgsConstructor@AllArgsConstructor@Builder
+@Getter@Setter@ToString@NoArgsConstructor@AllArgsConstructor@Builder
 public class BankAccount {
     @Id
     private String accountId;
